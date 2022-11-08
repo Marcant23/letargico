@@ -53,7 +53,7 @@ header > h1 {
 }
 header > img {
     width: 100%;
-    max-width: 800px;
+    max-width: 750px;
     margin: auto;
     display: block;
 }
