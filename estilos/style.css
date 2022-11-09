@@ -89,7 +89,7 @@ nav > a:hover {
 main {
 
     padding: 20px;
-    min-width: 200px;
+    min-width: 250px;
     max-width: 800px;
     margin: 20px;
     margin-bottom: 30px;
@@ -142,20 +142,21 @@ aside {
     background-color: #29a862;
     border-radius: 5px;
     padding: 10px;
-}
-aside > ul {
-        list-style-position: inside;
-        columns: 2;
-        list-style-type: '\2714\00A0\00A0';
+}  
+    a {
+        text-decoration: none;
+        color: rgb(85, 43, 199);
+        font-weight: bold;
+        margin-right: 20px;
+        font-size: 20px;
+        transition-duration: 0.5s;
+        border-radius: 3px;
+        padding: 5px;
     }
-
-a > href{
-    text-align: center;
-}
-a {
-    text-align: center;
-} 
-
+    a:hover {
+        background-color: #12eb74;
+        color:#075329
+    }
 footer {
     background-color: green;
     color: white;
