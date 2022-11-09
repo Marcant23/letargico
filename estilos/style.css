@@ -39,9 +39,10 @@ a.externa::after{
 }
 header {
     background-image: linear-gradient(to bottom, #1a6b3e, #29a862 );
-    min-height: 150px;
+    min-height: 50px;
     text-align: center; 
-    padding-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 header > h1 {
     color: white;
